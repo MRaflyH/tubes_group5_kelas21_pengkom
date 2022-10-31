@@ -1,0 +1,44 @@
+{
+    "bank": [
+        "BNI",
+        "BRI",
+        "Mandiri",
+        "BCA",
+        "BSI"
+    ],
+    "menu": [
+        "Top Up",
+        "GoRide",
+        "GoCar",
+        "GoFood",
+        "GoSend",
+        "GoTransit"
+    ],
+    "mobil": {
+        "Mobil Kecil": 1000,
+        "Mobil Besar": 2000,
+        "Bluebird": 3000
+    },
+    "menu_makan": {
+        "Nasi Rendang": 26000,
+        "Nasi Ayam Telor": 25000,
+        "Nasi Gulai Cincang": 30000,
+        "Nasi Telor Dadar": 29000,
+        "Nasi Dendeng": 21000
+    },
+    "menu_minum": {
+        "Es Teh Manis": 7000,
+        "Kopi Hitam": 9000,
+        "Teh Tawar": 11000,
+        "Es Jeruk": 15000,
+        "Teh Talua": 4000
+    },
+    "stasiun": [
+        "Stasiun Manggarai",
+        "Stasiun Bogor",
+        "Stasiun Jakarta Kota",
+        "Stasiun Tanah Abang",
+        "Stasiun Jatinegara"
+    ],
+    "saldo": 284000
+}
