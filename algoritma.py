@@ -266,17 +266,21 @@ while lanjut:
             tarif = 10000
 
         print("Tarif Anda adalah:", tarif)
+        print()
+
         if saldonow >= tarif:
-            print("Stasiun keberangkatan Anda adalah", stasiun_i, "dan Stasiun tujuan Anda adalah", stasiun_f,
-                  "dengan harga tiket", tarif)
+            print(f"Stasiun keberangkatan Anda adalah {stasiun_i} dan stasiun tujuan Anda adalah {stasiun_f} "
+                  f"dengan harga tiket {tarif}.")
             konfirmasi = str(input("Konfirmasi pesanan Anda:"))  # Iya/Tidak
             if konfirmasi == "Iya":
+                print()
                 print("Silahkan simpan tiket Anda")
                 print("Kembali ke menu utama")
                 saldonow = saldonow - tarif
         else:
             print("Saldo Gopay Anda tidak cukup")
             print("Kembali ke menu utama")
+        print()
 
     else:
         print("Pilihan menu tidak valid.")
